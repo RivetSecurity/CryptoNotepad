@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.rivetgroup.security.cryptonotepad" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+<application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".activities.CryptoNotesLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.CryptoNotesList"
+            android:exported="true"
+            android:label="@string/title_activity_crypto_notes_list" >
+        </activity>
+        <activity
+            android:name=".activities.CryptoNotesAddNote"
+            android:exported="false"
+            android:label="@string/title_activity_crypto_notes_add_note"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".activities.CryptoNotesViewNote"
+            android:exported="false"
+            android:label="@string/title_activity_crypto_notes_view_note" >
+        </activity>
+        <activity
+            android:name=".activities.CryptoNotesAddUser"
+            android:exported="false"
+            android:label="@string/title_activity_crypto_notes_add_user" >
+        </activity>
+        <activity
+            android:name=".activities.CryptoNotesAbout"
+            android:label="@string/title_activity_crypto_notes_about" >
+        </activity>
+    </application>
+
+</manifest>

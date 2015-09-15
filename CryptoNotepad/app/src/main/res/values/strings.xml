@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CrackMe - CryptoNotepad</string>
+
+    <string name="title_activity_crypto_notes_list">CryptoNotepad - Lista notatek</string>
+    <string name="title_activity_crypto_notes_add_note">CryptoNotepad - Dodaj notatkę</string>
+    <string name="title_activity_crypto_notes_view_note">CryptoNotepad - Podgląd notatki</string>
+    <string name="title_activity_crypto_notes_add_user">CryptoNotepad - Dodaj użytkownika</string>
+    <string name="title_activity_crypto_notes_about">O CryptoNotepad</string>
+
+    <string name="button_edit">Edytuj</string>
+    <string name="button_back">Powrót</string>
+    <string name="button_save">Zapisz</string>
+    <string name="button_delete">Usuń</string>
+    <string name="button_addnote">Dodaj nową notkę</string>
+    <string name="button_ok">OK</string>
+    <string name="button_add">Dodaj</string>
+
+    <string name="info_app"><![CDATA[<b>CryptoNotepad</b> - jest to aplikacja androidowa typu CrackMe stworzona przez zespół <b>Rivet Security</b>. Została napisana przy współpracy z deweloperami firmy <b>Rivet Group</b>, pracującymi przy tworzeniu platformy <b>In Time</b>. Programy często są narażane przez niezbyt uważne pisanie kodu przez programistę, dlatego celem tej aplikacji jest pokazanie najbardziej popularnych podatności. Prezentacja wraz z omówieniem znalezionych błędów odbyła się podczas konferencji <b><a href="https://www.securitycasestudy.pl/">Security Case Study 2015</a></b>.]]></string>
+
+    <string name="info_rvg"><![CDATA[Misją <b>Rivet Group</b> jest łączenie biznesu z technologią. Chcemy pomagać naszym Klientom w jak najlepszym dostosowaniu rozwiązań informatycznych do potrzeb biznesu.  Nasza oferta pokrywa całość wskazanego procesu - od analizy po implementację, testy, wdrożenie i utrzymanie.<br>
+     Po więcej informacji zapraszamy na:<br> <a href="http://rivetgroup.eu">http://rivetgroup.eu</a>]]></string>
+    <string name="info_security"><![CDATA[Firma <b>Rivet Group</b> poszerzyła swoją ofertę o kompleksowe usługi mające na celu podniesienie bezpieczeństwa w IT, których dostarczaniem zajmuje się wydzielona w tym celu marka – <b>Rivet Security</b>. Oferujemy elastyczne modele współpracy obejmujące: audyt, testy penetracyjne, ale również różne etapy wytwarzania oprogramowania od projektowania aplikacji, po fazy testowania aplikacji.<br>
+     Po więcej informacji zapraszamy na:<br> <a href="http://rivetgroup.eu">http://security.rivetgroup.eu</a>]]></string>
+    <string name="info_other">
+        <![CDATA[Rivet Group tworzą również marki: <b>Rivet InTime</b> oraz <b>Rivet !Know</b>.]]></string>
+
+    <string name="hint_pin">PIN</string>
+    <string name="hint_login">Login</string>
+    <string name="menu_about">O CryptoNotepad</string>
+
+</resources>
