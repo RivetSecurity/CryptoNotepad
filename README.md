@@ -1,0 +1,2 @@
+# O aplikacji CryptoNotepad
+CryptoNotepad - jest to aplikacja androidowa typu CrackMe stworzona przez zespół Rivet Security. Została napisana przy współpracy z deweloperami firmy Rivet Group, pracującymi przy tworzeniu platformy In Time. Programy często są narażane przez niezbyt uważne pisanie kodu przez programistę, dlatego celem tej aplikacji jest pokazanie najbardziej popularnych podatności. Prezentacja wraz z omówieniem znalezionych błędów odbyła się podczas konferencji Security Case Study 2015  (https://www.securitycasestudy.pl/).
